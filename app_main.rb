@@ -3,7 +3,7 @@ require 'line/bot'
 
 # 微小変更部分！確認用。
 get '/' do
-  "Hello world"
+  "Hello worldooooo"
 end
 
 def client
@@ -13,7 +13,7 @@ def client
   }
 end
 
-post '/:443/linebot/callback/' do
+post '/callback' do
   body = request.body.read
 
   signature = request.env['HTTP_X_LINE_SIGNATURE']
