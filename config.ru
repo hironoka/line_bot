@@ -1,2 +1,2 @@
 require './app_main'
-run Sinatra::Application
+run Sinatra::Application.new
