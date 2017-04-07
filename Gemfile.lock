@@ -16,6 +16,7 @@ PLATFORMS
 
 DEPENDENCIES
   line-bot-api
+  rack
   sinatra
 
 BUNDLED WITH
